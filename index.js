@@ -1,11 +1,11 @@
-// For this lab, we have a restaurant that's changing the menu a bit. We'll have some menu changes that we'll be doing for each of our three changes. Let the tests guide you. 
+// For this lab, we have a restaurant that's changing the menu a bit. We'll have some menu changes that we'll be doing for each of our three changes. Let the tests guide you.
 
 // 1. For our first problem, set `Object.assign` to merge the following objects:
 // {toast: avocado}, {mimosa: sunburst orange juice}, {eggs: bacon deviled}, {pancakes: mini skewers}
-Object.assign({toast: 'avocado'}, {mimosa: 'sunburst orange juice'}, {eggs: 'bacon deviled'}, {pancakes: 'mini skewers'});
+rObject.assign({toast: 'avocado'}, {mimosa: 'sunburst orange juice'}, {eggs: 'bacon deviled'}, {pancakes: 'mini skewers'});
 
 
-// 2. For our second problem, set `Object.assign` to merge the following objects *in the following order*: 
+// 2. For our second problem, set `Object.assign` to merge the following objects *in the following order*:
 // {sandwich: club}, {drink: iced tea}, {sandwich: wrap}, {drink: kombucha}, {sandwich: ham and cheese}, {drink: diet coke}, {sandwich: turkey and sprouts}, {drink: iced tea}, {sandwich: chicken salad}, {drink: chicken ceasar}
 
 Object.assign({sandwich: 'club'}, {drink: 'iced tea'}, {sandwich: 'wrap'}, {drink: 'kombucha'}, {sandwich: 'ham and cheese'}, {drink: 'diet coke'}, {sandwich: 'turkey and sprouts'}, {drink: 'iced tea'}, {sandwich: 'chicken salad'}, {sandwich: 'chicken ceasar'});
